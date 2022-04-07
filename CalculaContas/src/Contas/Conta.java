@@ -1,13 +1,29 @@
 package Contas;
 
 public class Conta {
+    private static int total;
     private double saldo;
+
+    public Conta(int agencia, int numero){
+        Conta.total++;
+        this.agencia = agencia;
+        this.numero = numero;
+        System.out.println("Estou criando uma conta " + this.numero);
+    }
+
+    public int getTotal(){
+        return Conta.total;
+    }
 
     public int getAgencia() {
         return this.agencia;
     }
 
     public void setAgencia(int agencia) {
+        if(agencia <= 0){
+            System.out.println("Por favor, informe um valor maior que 0");
+            return;
+        }
         this.agencia = agencia;
     }
 
@@ -54,6 +70,10 @@ public class Conta {
         return this.numero;
     }
     public void setNumero(int novoNumero){
-        this.numero = novoNumero;
+        if(numero <= 0){
+            System.out.println("Informe valor maior que 0");
+            return;
+        }
+        this.numero = numero;
     }
 }

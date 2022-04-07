@@ -3,7 +3,7 @@ package Contas;
 public class TestaGetESet {
 
     public static void main(String[] args) {
-        Conta conta = new Conta();
+        Conta conta = new Conta(50, 40);
         conta.setNumero(1337);
         System.out.println(conta.getNumero());
 
