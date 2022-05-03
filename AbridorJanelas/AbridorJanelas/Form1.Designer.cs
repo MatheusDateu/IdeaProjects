@@ -57,6 +57,9 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(34, 506);
             this.button1.Name = "button1";
@@ -68,6 +71,9 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.lbl60s);
             this.panel1.Controls.Add(this.lbl55s);
@@ -90,7 +96,6 @@
             this.panel1.Controls.Add(this.lblInsertWindow);
             this.panel1.Controls.Add(this.txtWinName1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1023, 614);
@@ -99,15 +104,20 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(965, 213);
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Location = new System.Drawing.Point(964, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 15);
+            this.label2.Size = new System.Drawing.Size(55, 15);
             this.label2.TabIndex = 24;
             this.label2.Text = "(seconds)";
             // 
             // lbl60s
             // 
+            this.lbl60s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl60s.Location = new System.Drawing.Point(944, 209);
             this.lbl60s.Name = "lbl60s";
             this.lbl60s.Size = new System.Drawing.Size(26, 23);
@@ -117,6 +127,9 @@
             // 
             // lbl55s
             // 
+            this.lbl55s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl55s.Location = new System.Drawing.Point(895, 209);
             this.lbl55s.Name = "lbl55s";
             this.lbl55s.Size = new System.Drawing.Size(26, 23);
@@ -126,6 +139,9 @@
             // 
             // lbl50s
             // 
+            this.lbl50s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl50s.Location = new System.Drawing.Point(843, 209);
             this.lbl50s.Name = "lbl50s";
             this.lbl50s.Size = new System.Drawing.Size(26, 23);
@@ -135,6 +151,9 @@
             // 
             // lbl45s
             // 
+            this.lbl45s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl45s.Location = new System.Drawing.Point(794, 209);
             this.lbl45s.Name = "lbl45s";
             this.lbl45s.Size = new System.Drawing.Size(26, 23);
@@ -144,6 +163,9 @@
             // 
             // lbl40s
             // 
+            this.lbl40s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl40s.Location = new System.Drawing.Point(744, 209);
             this.lbl40s.Name = "lbl40s";
             this.lbl40s.Size = new System.Drawing.Size(26, 23);
@@ -153,6 +175,9 @@
             // 
             // lbl35s
             // 
+            this.lbl35s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl35s.Location = new System.Drawing.Point(695, 209);
             this.lbl35s.Name = "lbl35s";
             this.lbl35s.Size = new System.Drawing.Size(26, 23);
@@ -162,6 +187,9 @@
             // 
             // lbl30s
             // 
+            this.lbl30s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl30s.Location = new System.Drawing.Point(644, 209);
             this.lbl30s.Name = "lbl30s";
             this.lbl30s.Size = new System.Drawing.Size(26, 23);
@@ -171,6 +199,9 @@
             // 
             // lbl25s
             // 
+            this.lbl25s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25s.Location = new System.Drawing.Point(591, 209);
             this.lbl25s.Name = "lbl25s";
             this.lbl25s.Size = new System.Drawing.Size(26, 23);
@@ -180,6 +211,9 @@
             // 
             // lbl20s
             // 
+            this.lbl20s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl20s.Location = new System.Drawing.Point(541, 209);
             this.lbl20s.Name = "lbl20s";
             this.lbl20s.Size = new System.Drawing.Size(26, 23);
@@ -189,6 +223,9 @@
             // 
             // lbl15s
             // 
+            this.lbl15s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl15s.Location = new System.Drawing.Point(492, 209);
             this.lbl15s.Name = "lbl15s";
             this.lbl15s.Size = new System.Drawing.Size(26, 23);
@@ -198,6 +235,9 @@
             // 
             // lbl10s
             // 
+            this.lbl10s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl10s.Location = new System.Drawing.Point(441, 209);
             this.lbl10s.Name = "lbl10s";
             this.lbl10s.Size = new System.Drawing.Size(26, 23);
@@ -207,6 +247,9 @@
             // 
             // lbl5s
             // 
+            this.lbl5s.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl5s.Location = new System.Drawing.Point(392, 209);
             this.lbl5s.Name = "lbl5s";
             this.lbl5s.Size = new System.Drawing.Size(26, 23);
@@ -216,6 +259,9 @@
             // 
             // trackBar1
             // 
+            this.trackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBar1.AutoSize = false;
             this.trackBar1.Location = new System.Drawing.Point(392, 176);
             this.trackBar1.Maximum = 60;
@@ -231,6 +277,9 @@
             // 
             // button5
             // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button5.Location = new System.Drawing.Point(239, 506);
             this.button5.Name = "button5";
@@ -241,6 +290,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(34, 176);
@@ -251,6 +303,9 @@
             // 
             // btnCleanField
             // 
+            this.btnCleanField.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCleanField.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCleanField.Location = new System.Drawing.Point(976, 98);
             this.btnCleanField.Name = "btnCleanField";
@@ -262,6 +317,9 @@
             // 
             // button3
             // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(450, 506);
             this.button3.Name = "button3";
@@ -272,6 +330,9 @@
             // 
             // btnClose
             // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnClose.Location = new System.Drawing.Point(781, 506);
             this.btnClose.Name = "btnClose";
@@ -283,6 +344,9 @@
             // 
             // lblInsertWindow
             // 
+            this.lblInsertWindow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInsertWindow.AutoSize = true;
             this.lblInsertWindow.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblInsertWindow.Location = new System.Drawing.Point(34, 105);
@@ -294,6 +358,9 @@
             // 
             // txtWinName1
             // 
+            this.txtWinName1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtWinName1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtWinName1.Location = new System.Drawing.Point(392, 98);
             this.txtWinName1.Name = "txtWinName1";
@@ -309,7 +376,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Show on TV";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
