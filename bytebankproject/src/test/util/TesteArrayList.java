@@ -11,6 +11,8 @@ public class TesteArrayList {
 
         ArrayList lista = new ArrayList();
 
+        Conta cc = new ContaCorrente(22, 11);
+        lista.add(cc);
 
     }
 }
